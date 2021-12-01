@@ -1,6 +1,0 @@
-from sklearn.preprocessing import MinMaxScalar
-data=[[-1,2],[-0.5,6],[0,10],[1,18]]
-Scalar=MinMaxScalar()
-print(scalar.fit(data))
-print(scalar.transform(data))
-print(scalar.transform([[2,2]]))
